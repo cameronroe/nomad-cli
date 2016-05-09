@@ -1,0 +1,144 @@
+{
+  "ok": true,
+  "updated": {
+    "epoch": 1462635503,
+    "time": "2016-05-07T15:38:23+00:00",
+    "cache": false
+  },
+  "type": "cities",
+  "result": [
+    {
+      "info": {
+        "city": {
+          "name": "Amsterdam",
+          "url": "/amsterdam-netherlands",
+          "slug": "amsterdam-netherlands"
+        },
+        "country": {
+          "name": "Netherlands",
+          "url": "/country/netherlands",
+          "slug": "netherlands"
+        },
+        "region": {
+          "name": "Europe",
+          "url": "/region/europe",
+          "slug": "europe"
+        },
+        "internet": {
+          "speed": {
+            "download": 10
+          }
+        },
+        "weather": {
+          "type": "Mostly Cloudy",
+          "humidity": {
+            "label": "Humid",
+            "value": 0.65
+          },
+          "temperature": {
+            "celsius": 23,
+            "fahrenheit": 74
+          }
+        },
+        "location": {
+          "latitude": 52.3702157,
+          "longitude": 4.8951679
+        },
+        "monthsToVisit": [
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      "people": {
+        "checkins": 148
+      },
+      "scores": {
+        "nomadScore": 0.27,
+        "nomad_score": 0.27,
+        "life_score": 0.84,
+        "free_wifi_available": 0.8,
+        "nightlife": 1,
+        "leisure": 0.8,
+        "places_to_work": 0.8,
+        "aircon": 0.4,
+        "safety": 0.8,
+        "friendly_to_foreigners": 1,
+        "racism": 0.8,
+        "lgbt_friendly": 1,
+        "female_friendly": 0.8
+      },
+      "media": {
+        "image": {
+          "250": "/assets/img/cities/amsterdam-netherlands-250px.jpg",
+          "500": "/assets/img/cities/amsterdam-netherlands-500px.jpg",
+          "1000": "/assets/img/cities/amsterdam-netherlands-1000px.jpg",
+          "1500": "/assets/img/cities/amsterdam-netherlands-1500px.jpg"
+        }
+      },
+      "cost": {
+        "local": {
+          "USD": 2118,
+          "EUR": 1857
+        },
+        "nomad": {
+          "USD": 3915,
+          "EUR": 3432
+        },
+        "expat": {
+          "USD": 3610,
+          "EUR": 3165
+        },
+        "longTerm": {
+          "USD": 3610,
+          "EUR": 3165
+        },
+        "shortTerm": {
+          "USD": 3915,
+          "EUR": 3432
+        },
+        "hotel": {
+          "EUR": 100,
+          "USD": 113
+        },
+        "airbnb_median": {
+          "USD": 98,
+          "EUR": 98
+        },
+        "airbnb_vs_apartment_price_ratio": 1.6385461625,
+        "non_alcoholic_drink_in_cafe": {
+          "EUR": 2.5,
+          "USD": 2.85
+        },
+        "beer_in_cafe": {
+          "EUR": 5,
+          "USD": 5.7
+        },
+        "coffee_in_cafe": {
+          "EUR": 3.5,
+          "USD": 3.99
+        },
+        "coworking": {
+          "monthly": {
+            "EUR": 427,
+            "USD": 486.99
+          }
+        },
+        "exchange_rate": {
+          "USD": 1.1404927384827
+        }
+      }
+    }
+  ],
+  "endpoint_examples": [
+    "/api/v2/list/cities",
+    "/api/v2/list/cities/amsterdam-netherlands",
+    "/api/v2/list/countries",
+    "/api/v2/list/countries/netherlands",
+    "/api/v2/list/regions",
+    "/api/v2/list/regions/europe",
+    "/api/v2/list/cities/amsterdam-netherlands/places/work",
+    "/api/v2/list/cities/amsterdam-netherlands/places/sleep"
+  ]
+}
